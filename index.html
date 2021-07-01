@@ -5,10 +5,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Hiruku Landing Page</title>
+    <title>Crypto Curency Landing page </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- all css here -->
+    <!-- bootstrap v3.3.6 css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- animate css -->
     <link rel="stylesheet" href="css/animate.css">
@@ -29,12 +31,11 @@
     <!-- responsive css -->
     <link rel="stylesheet" href="css/responsive.css">
     <!-- modernizr css -->
-    <script src="js/modernizr-2.8.3.min.js"></script>
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 <script src='/google_analytics_auto.js'></script></head>
 
 <body>
     <a href="javascript:" id="return-to-top"><i class="fa fa-angle-up"></i></a>
-    <!-- preloader Start -->
     <!--Header area start here-->
     <div section-scroll='0' class="wd_scroll_wrap">
         <header class="gc_main_menu_wrapper">
@@ -42,7 +43,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-6">
                         <div class="logo-area">
-                            <a href="index.html"><img src="images/logo1.png" alt="logo" height="70px" width="70px" style="margin-left: 20px;margin-top: -12px"/></a>
+                            <a href="index.html"><img src="images/logo/logo.png" alt="logo" /></a>
                         </div>
                     </div>
                     <!-- Mobile Menu  Start -->
@@ -50,14 +51,28 @@
                         <div class="menu-area  hidden-xs">
                             <nav class="wd_single_index_menu btc_main_menu">
                                 <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#feature">Features</a></li>
-                                    <li><a href="#roadmap">Road Map</a></li>
-                                    <li><a href="#faq">FAQ</a></li>
+                                    <li><a href="0">Home</a></li>
+                                    <li><a href="1">About</a></li>
+                                    <li><a href="3">Features</a></li>
+                                    <li><a href="4">Road Map</a></li>
+<!--                                    <li><a href="5">Road Map</a></li>-->
+                                    <li><a href="6">Tokens</a></li>
+                                    <li><a href="7">FAQ</a></li>
                                 </ul>
                             </nav>
+                            <div class="language">
+                                <span class="lng-in"><img src="images/icons/12.png" alt=""/></span>
+                                <ul class="lng-out">
+                                    <li><img src="images/icons/12.png" alt="" /></li>
+                                    <li><img src="images/icons/12.png" alt="" /></li>
+                                </ul>
+                            </div>
+                            <div class="login-btn">
+                                <a href="#" class="btn1" style="background: #2E3986"><i class="fa fa-telegram" aria-hidden="true"></i><span>Join Telegram</span></a>
+                            </div>
                         </div>
-                        <!-- mobile menu area start --><div class="rp_mobail_menu_main_wrapper visible-xs">
+                        <!-- mobile menu area start -->
+                        <div class="rp_mobail_menu_main_wrapper visible-xs">
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div id="toggle">
@@ -84,15 +99,17 @@
                                 </div>
                             </div>
                             <div id="sidebar">
-                                <h1><a href="#">Hiruku Coin</a></h1>
+                                <h1><a href="#">Bit Money</a></h1>
                                 <div id="toggle_close">&times;</div>
                                 <div id='cssmenu' class="wd_single_index_menu">
                                     <ul>
                                     <li><a href="0">Home</a></li>
-                                    <li><a href="3">About</a></li>
-                                    <li><a href="4">Features</a></li>
-                                    <li><a href="5">Road Map</a></li>
-                                    <li><a href="6">FAQ</a></li>
+                                    <li><a href="1">About</a></li>
+                                    <li><a href="3">Features</a></li>
+                                    <li><a href="4">Road Map</a></li>
+<!--                                    <li><a href="5">Road Map</a></li>-->
+                                    <li><a href="6">Tokens</a></li>
+                                    <li><a href="7">FAQ</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -109,7 +126,7 @@
                 
             </canvas>
             <div id="particles-js">
-                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="background:rgba(0,0,0,.5)">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <div class="carousel-captions caption-1">
@@ -117,19 +134,94 @@
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                             <div class="slider-content">
-                                                <h2 data-animation="animated bounceInLeft">Crypto Is a Field where a user can invest their money and get a good profit</h2>
+                                                <h2 data-animation="animated bounceInLeft">CryptoCurency   Landing Page</h2>
                                                 <div class="buttons">
-                                                    <a href="#" class="btn1" data-animation="animated bounceInUp" style="background: #3D4CAE">Join Now</a>
-                                                    <a href="#" class="btn2" data-animation="animated bounceInUp" style="background: #3D4CAE">Explore More</a>
+                                                    <a href="#" class="btn1" data-animation="animated bounceInUp" style="background: #2E3986">WHITEPAPER</a>
+                                                    <a href="#" class="btn2" data-animation="animated bounceInUp" style="background: #2E3986">Buy Tokens Now!</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hidden-xs hidden-sm">
                                             <div class="btc_slider_about_img" data-animation="animated bounceInDown">
-												<img src="images/1.png" alt="about_img">
+												<img src="images/2.png" alt="about_img">
 											</div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                        <div class="slider-content">
+                                            <h2 data-animation="animated bounceInLeft">Crypto Curncy - Lending & <br>Investment Platform</h2>
+                                            <div class="buttons">
+                                                <a href="#" class="btn1" style="background: #2E3986" data-animation="animated bounceInUp">WHITEPAPER</a>
+                                                <a href="#" class="btn2"  data-animation="animated bounceInUp" style="background: #2E3986">Buy Tokens Now!</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12  hidden-xs hidden-sm">
+										<div class="btc_slider_about_img" data-animation="animated bounceInDown">
+												<img src="images/header-img1.png" alt="about_img">
+										</div>
+									</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-nevigation">
+                            <a class="prev" href="#carousel-example-generic" role="button" data-slide="prev">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a class="next" href="#carousel-example-generic" role="button" data-slide="next">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Slider area end here-->
+        <section class="currency-area">
+            <div class="container-fliud">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="rete-list bt_title wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">
+                            <div class="content">
+                                <div class="con">
+                                    <h2><img src="images/bitcoin-btc-logo.png" alt=""><span>Bitcoin</span></h2><button class="btn3" style="background: #5BB9CA">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rete-list bt_title wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;">
+                            <div class="content">
+                                <div class="con">
+                                    <h2><img src="images/ethereum-eth-logo.png" alt=""><span>Ethereum</span></h2><button class="btn3" style="background: #5BB9CA">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rete-list bt_title wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn;">
+                            <div class="content">
+                                <div class="con">
+                                    <h2><img src="images/tether-usdt-logo.png" alt=""><span>Dollar (USDT)</span></h2>
+                                    <button class="btn3" style="background: #5BB9CA">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rete-list bt_title wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">
+                            <div class="content">
+                                <div class="con">
+                                    <h2><img src="images/icon03.png" alt=""><span>Total USD</span></h2>
+                                    <button class="btn3" style="background: #5BB9CA">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rete-list hidden-md   wow  fadeIn animated" data-wow-duration="2.1s" style="visibility: visible; animation-duration: 2.1s; animation-name: fadeIn;">
+                            <div class="content">
+                                <div class="con">
+                                    <h2><img src="images/icon05.png" alt=""><span>Token Sale</span></h2>
+                                    <button class="btn3" style="background: #5BB9CA">Buy Now</button>
                                 </div>
                             </div>
                         </div>
@@ -137,33 +229,52 @@
                 </div>
             </div>
         </section>
-        <!--Slider area end here-->
     </div>
-    
-    
-        <section class="about-area pd-t70 pd-b100 jarallax bg-img"  style="background: #000" >
-            <div class="container" >
-                <div class="row" style="padding-top:100px;padding-bottom: 100px">
-                      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                       <img src="images/img-2-copyright.webp" style="padding-top: 100px">
-                    </div>
+    <!--About area start here-->
+    <div section-scroll='1' class="wd_scroll_wrap" style="display: block">
+        <section class="about-area pd-t70 pd-b100 jarallax bg-img">
+            <div class="container">
+                <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <div class="about-content">
-                            <h2 class="f-40 fw-400 wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;padding-top: 100px">Trade With the Crypto</h2>
-                            <p class="wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;">Crypto is a lending and investment, multicurrency and multifunctional online platform based on blockchain technology. There investors and borrowers meet each other and have the opportunity to lend money on mutually beneficial.</p>
-                            <p class="wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn;">Crypto is a unique service that allows individuals to access loans from the comfort of their home in fiat currencies or crypto-currencies.</p>
-                            <p class="wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">Crypto is a multi-functional platform which allows each participant to keep money in a multi-currency online wallet, buy and sell currency on the exchange, invest money, get a loan in a convenient currency.</p>
+                            <h2 class="f-40 fw-400 wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Time is short || Buy Now</h2>
+                            <p class="wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;">Cryptocureny is a lending and investment, multicurrency and multifunctional online platform based on blockchain technology. There investors and borrowers meet each other and have the opportunity to lend money on mutually beneficial.</p>
+                            <p class="wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn;">Cryptocureny is a unique service that allows individuals to access loans from the comfort of their home in fiat currencies or crypto-currencies.</p>
+                            <p class="wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">Cryptocureny is a multi-functional platform which allows each participant to keep money in a multi-currency online wallet, buy and sell currency on the exchange, invest money, get a loan in a convenient currency.</p>
                             <div class="buttons">
-                                <a href="#" class="btn1" style="background: #3D4CAE">Join Now</a>
+                                <a href="#" class="btn1" style="background: #2E3986">Know More?</a>
+                                <a href="#" class="btn3" style="background: #2E3986">Buy Tokens Now!</a>
                             </div>
                         </div>
                     </div>
+                    
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="bt_timer_section_wrapper">
+                            <div id="clockdiv">
+                                <div>
+                                    <span class="days"></span>
+                                    <div class="smalltext">Days</div>
+                                </div>
+                                <div>
+                                    <span class="hours"></span>
+                                    <div class="smalltext">Hours</div>
+                                </div>
+                                <div>
+                                    <span class="minutes"></span>
+                                    <div class="smalltext">Minutes</div>
+                                </div>
+                                <div>
+                                    <span class="seconds"></span>
+                                    <div class="smalltext">Seconds</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
-    <!--About area start here-->
-    <div  class="wd_scroll_wrap">
-        <!--About area end here
+        <!--About area end here-->
         <div class="sud">
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 181.1" style="enable-background:new 0 0 1920 181.1;" xml:space="preserve">
                 <style type="text/css">
@@ -182,64 +293,63 @@
                 </g>
             </svg>
         </div>
--->
     </div>
-    <div id="feature" class="wd_scroll_wrap">
-        <section class="projects bg-img pd-t100 pd-b70 jarallax" style="background: #242424">
+    <div section-scroll='3' class="wd_scroll_wrap">
+        <section class="projects bg-img pd-t100 pd-b70 jarallax">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                         <div class="section-heading">
-                            <h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Feature</h2>
+                            <h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Our Feature</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <div class="project-list wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">
-                            <div class="content" style="background:#fff;">
+                            <div class="content">
                                 <span class="icons"><img src="images/feature01.png" alt=""/></span>
-                                <h3 style="color: black">Blockchain <br>Technology</h3>
+                                <h3>Blockchain <br>Technology</h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <div class="project-list wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;">
-                            <div class="content" style="background:#fff;">
+                            <div class="content">
                                 <span class="icons"><img src="images/feature02.png" alt=""/></span>
-                                <h3 style="color: black">Advanced <br>Security System</h3>
+                                <h3>Advanced <br>Security System</h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <div class="project-list wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn;">
-                            <div class="content" style="background: #fff">
+                            <div class="content">
                                 <span class="icons"><img src="images/feature03.png" alt=""/></span>
-                                <h3 style="color: black">Multicurrency <br>Coins</h3>
+                                <h3>Multicurrency <br>Coins</h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <div class="project-list wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">
-                            <div class="content" style="background: #fff">
-                                <span class="icons"><img src="images/feature06.png" alt=""/></span>
-                                <h3 style="color: black">Internal <br>Exchange</h3>
+                            <div class="content">
+                                <span class="icons"><img src="images/feature04.png" alt=""/></span>
+                                <h3>Internal <br>Exchange</h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <div class="project-list wow  fadeIn animated" data-wow-duration="2.1s" style="visibility: visible; animation-duration: 2.1s; animation-name: fadeIn;">
-                            <div class="content" style="background: #fff">
-                                <span class="icons"><img src="images/feature04.png" alt=""/></span>
-                                <h3 style="color: black">Safety <br>Fund</h3>
+                            <div class="content">
+                                <span class="icons"><img src="images/feature05.png" alt=""/></span>
+                                <h3>Safety <br>Fund</h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <div class="project-list wow  fadeIn animated" data-wow-duration="2.4s" style="visibility: visible; animation-duration: 2.4s; animation-name: fadeIn;">
-                            <div class="content" style="background: #fff">
-                                <span class="icons"><img src="images/feature05.png" alt=""/></span>
-                                <h3 style="color: black">Cooperation <br>With Arbitration</h3>
+                            <div class="content">
+                                <span class="icons"><img src="images/feature06.png" alt=""/></span>
+                                <h3>Cooperation <br>With Arbitration</h3>
                             </div>
                         </div>
                     </div>
@@ -247,8 +357,87 @@
             </div>
         </section>
     </div>
-    <div section-scroll='4' class="wd_scroll_wrap">
 <!--
+    </div>
+    <div section-scroll='4' class="wd_scroll_wrap">
+        <section class="steps-area section">
+            <div id="steps-js">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-11 col-md-11 col-sm-12 col-xs-12">
+                            <div class="steps-heading">
+                                <h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Few Steps For a Loan</h2>
+                                <div class="right-con">
+                                    <span>Scroll Down</span>
+                                    <a data-scroll data-options='{ "speed": 100 }' href="#steps"><i class="fa fa-angle-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="steps" class="steps-details bg-mg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 col-md-offset-1 col-lg-offset-1">
+                        <div class="steps-cont">
+                            <ul>
+                                <li class="l-con">
+                                    <div class="cont wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">
+                                        <h2>01. Registration On The Platform</h2>
+                                        <p>Nam in lectus eget nisi aliquam ultrices. Aliquam at efficitur
+                                            <br>nulla. Cras sodales eu nibh vel scelerisque. </p>
+                                    </div>
+                                    <span><i class="fa fa-users"></i></span>
+                                </li>
+                                <li class="r-con">
+                                    <div class="cont wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;">
+                                        <h2>02. Passing Verification</h2>
+                                        <p>Nam in lectus eget nisi aliquam ultrices. Aliquam at efficitur
+                                            <br>nulla. Cras sodales eu nibh vel scelerisque. </p>
+                                    </div>
+                                    <span><i class="fa fa-check-square-o"></i></span>
+                                </li>
+                                <li class="l-con">
+                                    <div class="cont wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn;">
+                                        <h2>03. Creating An Application For a Loan</h2>
+                                        <p>Nam in lectus eget nisi aliquam ultrices. Aliquam at efficitur
+                                            <br>nulla. Cras sodales eu nibh vel scelerisque. </p>
+                                    </div>
+                                    <span><i class="fa fa-edit "></i></span>
+                                    <div class="mid-icons"></div>
+                                </li>
+                                <li class="r-con">
+                                    <div class="cont wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">
+                                        <h2>04. Financing a Loan</h2>
+                                        <p>Nam in lectus eget nisi aliquam ultrices. Aliquam at efficitur
+                                            <br>nulla. Cras sodales eu nibh vel scelerisque. </p>
+                                    </div>
+                                    <span><i class="fa fa-university"></i></span>
+                                </li>
+                                <li class="l-con">
+                                    <div class="cont wow  fadeIn animated" data-wow-duration="2.1s" style="visibility: visible; animation-duration: 2.1s; animation-name: fadeIn;">
+                                        <h2>05. Activating a Loan</h2>
+                                        <p>Nam in lectus eget nisi aliquam ultrices. Aliquam at efficitur
+                                            <br>nulla. Cras sodales eu nibh vel scelerisque. </p>
+                                    </div>
+                                    <span><i class="fa fa-bell"></i></span>
+                                </li>
+                                <li class="r-con">
+                                    <div class="cont wow  fadeIn animated" data-wow-duration="2.4s" style="visibility: visible; animation-duration:2.4s; animation-name: fadeIn;">
+                                        <h2>06. Receiving Funds</h2>
+                                        <p>Nam in lectus eget nisi aliquam ultrices. Aliquam at efficitur
+                                            <br>nulla. Cras sodales eu nibh vel scelerisque. </p>
+                                    </div>
+                                    <span><i class="fa fa-paw"></i></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <div class="sud">
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 181.1" style="enable-background:new 0 0 1920 181.1;" xml:space="preserve">
                 <style type="text/css">
@@ -267,24 +456,28 @@
                 </g>
             </svg>
         </div>
--->
     </div>
-    <div  class="wd_scroll_wrap">
-        <section class="video-area section" style="background: #000">
+-->
+    <div section-scroll='4' class="wd_scroll_wrap">
+        <section class="video-area section">
             <div id="video-js">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="videos-heding">
-                                <h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Road Map Towards Success</h2>
+                                <h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Development of CryptoCurency Platform<br>(Road Map)</h2>
+                                <div class="videos-box">
+                                    <video id="my-video" class="video-js" controls preload="auto" width="770" height="400" poster="images/hotel-reception-area_1302-10223.jpg" data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://youtu.be/Gc2en3nHxA4"}], "youtube": { "customVars": { "wmode": "transparent" } } }'>
+                                    </video>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <div class="wd_scroll_wrap" style="background: #000" id="roadmap">
-            <section class="video-des bg-img " style="background: #000">
+        <div class="wd_scroll_wrap">
+            <section class="video-des bg-img ">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -296,16 +489,14 @@
                                             <span class="cre"></span>
                                             <div class="col-sm-6 col-xs-12 left-con wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">
                                                 <div class="box-con">
-                                                    <div class="dbox"   style="background:#242424">
+                                                    <div class="dbox">
                                                         <div class="dright">
                                                             <div class="content">
-                                                                <h3>Phase 1</h3>
-                                                                <p>
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                </p>
+                                                                <h3>Phase 01</h3>
+                                                                <p>WEBSITE AND SOCIAL MEDIA.</p>
+                                                                <p>10,000 WBSITE HOLDER</p>
+                                                                <p>TOKEN LAUNCH</p>
+                                                                <p>MARKETING CAMPAIGN START.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -313,16 +504,14 @@
                                             </div>
                                             <div class="col-sm-6 col-xs-12 right-con  wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;">
                                                 <div class="box-con">
-                                                    <div class="dbox" style="background:#242424">
-                                                        <div class="deft">
-                                                            <div class="content" style="text-align: left Important">
-                                                                <h3 style="text-align: left">Phase 2</h3>
-                                                                <p style="text-align: left">
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                </p>
+                                                    <div class="dbox">
+                                                         <div class="dright">
+                                                            <div class="content">
+                                                                <h3>Phase 02</h3>
+                                                                <p>STRATEGIC MARKETING: PROFFESIONAL</p>
+                                                                <p>TOURNAMENTS</p>
+                                                                <p>AND SPONSORSHIP DEALS</p>
+                                                                <p>E-SPORT TEAMS</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -331,40 +520,35 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <span class="years"><span class="con">2014</span></span>
+                                        <span class="years"><span class="con">2012</span></span>
                                         <div class="serials">
                                             <span class="cre"></span>
                                             <div class="col-sm-6 col-xs-12 left-con wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn;">
-                                               
                                                 <div class="box-con">
-                                                    <div class="dbox" style="background:#242424">
-                                                        <div class="deft">
-                                                            <div class="content" style="text-align: left Important">
-                                                                <h3 style="text-align: left">Phase 2</h3>
-                                                                <p style="text-align: left">
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                </p>
+                                                      <div class="dbox">
+                                                         <div class="dright">
+                                                            <div class="content">
+                                                                <h3>Phase 01</h3>
+                                                                <p>50.000 HOLDERS.</p>
+                                                                <p>SMALL CEX LISTINGS.</p>
+                                                                <p>TOURNAMENTS</p>
+                                                                <p>CREATION OF OUR OWN</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-sm-6 col-xs-12 right-con wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">
-                                                
                                                 <div class="box-con">
-                                                    <div class="dbox" style="background:#242424">
-                                                        <div class="deft">
-                                                            <div class="content" style="text-align: left Important">
-                                                                <h3 style="text-align: left">Phase 2</h3>
-                                                                <p style="text-align: left">
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                </p>
+                                                     <div class="dbox">
+                                                         <div class="dright">
+                                                            <div class="content">
+                                                                <h3>Phase 02</h3>
+                                                                <p>More tournaments with higher prizest</p>
+                                                                <p>Work towards game API integration</p>
+                                                                <p>Start looking for partners within the eSports/gaming industry</p>
+                                                                <p>Pre-sale
+</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -374,174 +558,336 @@
                                         <div class="serials">
                                             <span class="cre"></span>
                                             <div class="col-sm-6 col-xs-12 left-con wow  fadeIn animated" data-wow-duration="2.1s" style="visibility: visible; animation-duration: 2.1s; animation-name: fadeIn;">
-                                                
                                                 <div class="box-con">
-                                                    <div class="dbox" style="background:#242424">
-                                                        <div class="deft">
-                                                            <div class="content" style="text-align: left Important">
-                                                                <h3 style="text-align: left">Phase 2</h3>
-                                                                <p style="text-align: left">
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                </p>
+                                                      <div class="dbox">
+                                                         <div class="dright">
+                                                            <div class="content">
+                                                                <h3>Phase 03</h3>
+                                                                <p>CEX LISTINGS.</p>
+                                                                <p>BIG AGENCY MARKETING.</p>
+                                                                <p>BRANDING OVER THE WORLD.</p>
+                                                                <p>200.000 HOLDERS.</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-sm-6 col-xs-12 right-con wow  fadeIn animated" data-wow-duration="2.1s" style="visibility: visible; animation-duration: 2.1s; animation-name: fadeIn;">
-                                                
                                                 <div class="box-con">
-                                                    <div class="dbox" style="background:#242424">
-                                                        <div class="deft">
-                                                            <div class="content" style="text-align: left Important">
-                                                                <h3 style="text-align: left">Phase 2</h3>
-                                                                <p style="text-align: left">
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                </p>
+                                                      <div class="dbox">
+                                                         <div class="dright">
+                                                            <div class="content">
+                                                                <h3>Phase 04</h3>
+                                                                <p>BIG BRAND DEALS.</p>
+                                                                <p>NFT PLATFORM.</p>
+                                                                <p>UNIVERSITY OF GAMING.</p>
+                                                                <p>100000 HOLDERS.</p>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <span class="years"><span class="con">2020</span></span>
-                                        <div class="serials">
-                                            <span class="cre"></span>
-                                            <div class="col-sm-6 col-xs-12 left-con  wow  fadeIn animated" data-wow-duration="2.3s" style="visibility: visible; animation-duration: 2.3s; animation-name: fadeIn;">
-                                               
-                                                <div class="box-con">
-                                                    <div class="dbox" style="background:#242424">
-                                                        <div class="deft">
-                                                            <div class="content" style="text-align: left Important">
-                                                                <h3 style="text-align: left">Phase 2</h3>
-                                                                <p style="text-align: left">
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6 col-xs-12 right-con wow  fadeIn animated" data-wow-duration="2.3s" style="visibility: visible; animation-duration: 2.3s; animation-name: fadeIn;">
-                                                
-                                                <div class="box-con">
-                                                    <div class="dbox" style="background:#242424">
-                                                        <div class="deft">
-                                                            <div class="content" style="text-align: left Important">
-                                                                <h3 style="text-align: left">Phase 2</h3>
-                                                                <p style="text-align: left">
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="serials">
-                                            <div class="col-sm-12 col-xs-12 center-con wow  fadeIn animated" data-wow-duration="2.5s" style="visibility: visible; animation-duration: 2.5s; animation-name: fadeIn;">
-                                                <div class="box-con">
-                                                   
-                                                <div class="box-con">
-                                                    <div class="dbox" style="background:#242424">
-                                                        <div class="deft">
-                                                            <div class="content" style="text-align: left Important">
-                                                                <h3 style="text-align: left">Phase 2</h3>
-                                                                <p style="text-align: left">
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                   10,000 Website Builders<br>
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <div class="sud">
+            <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 181.1" style="enable-background:new 0 0 1920 181.1;" xml:space="preserve">
+                <style type="text/css">
+                    .st0 {
+                        fill-rule: evenodd;
+                        clip-rule: evenodd;
+                        fill: #10122d;
+                    }
+                </style>
+                <g>
+                    <path class="st0" d="M0,80c0,0,28.9-4.2,43-13c14.3-9,71-35.7,137,5c17.3,7.7,33.3,13,48,11c17.3,0.3,50.3,4.7,66,23
+                        c20.3,9.7,68,40.3,134-12c24-11,59-16.3,104,2c21,7.3,85,27.7,117-14c24-30.7,62.7-55,141-12c26,10.3,72,14.7,110-14
+                        c37.7-19,89.7-29,122,53c23,32.7,47.7,66.3,97,26c24-22.7,51-78.3,137-38c0,0,28.3,15.7,52,15c23.7-0.7,50.7,4.3,76,41
+                        c19.7,19.7,71,36.7,121-2c0,0,22.3-16,55-12c0,0,32.7,6.7,56-71c23.3-76,79-92,122-29c9.3,13.7,25,42,62,43c37,1,51.7,25.3,67,48
+                        c15.3,22.7,51,22.7,53,23v28.1H0V80z" />
+                </g>
+            </svg>
+        </div>
+    </div>
+    </div>
+    <div section-scroll='6' class="wd_scroll_wrap">
+        
+<!--
+        <section class="tokens-area section">
+            <div id="token-js">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="section-heading2">
+                                <h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Rounds of Sale of Tokens</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-10 col-md-9 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-right wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;">
+                                <div class="tokens mr-l50">
+                                    <div class="token-name">Pre-sale</div>
+                                    <div class="token-body">
+                                        <p>Target – to Raise USD 500,000</p>
+                                        <button class="left-btn">Price 1 BIT – $0.25</button>
+                                        <span class="easypiechart skill-circle">
+                                 <span class="percent head-font">20</span>
+                                        <br>
+                                        <span class="con">Special Bonus</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-right wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn;">
+                                <div class="tokens mr-r50">
+                                    <div class="token-name">ICO</div>
+                                    <div class="token-body">
+                                        <p>Target – to Raise USD 20,000,000</p>
+                                        <button class="right-btn">Price 1 BIT - $1.00</button>
+                                        <div class="prices">
+                                            <h3 class="f-20">Bonus for ICO :</h3>
+                                            <table>
+                                                <thead>
+                                                    <tr>
+                                                        <th>Time</th>
+                                                        <th>bonus</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1day</td>
+                                                        <td>35%</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2 - 4 Days </td>
+                                                        <td>20%</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5 - 13 Days</td>
+                                                        <td>10%</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>14 - 31 Day</td>
+                                                        <td>0%</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                                <p class="token-con wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">The sale of tokens It is a long established fact that a reader will be distracted by the<span> readable content of a page when looking at its layout.</span>There are many variations of passages of Lorem Ipsum available. There are many variations of passages. </p>
                             </div>
                         </div>
                     </div>
-            </section>
+                </div>
             </div>
-   <div  class="wd_scroll_wrap">
-        <section class="about-area pd-t70 pd-b100 jarallax bg-img" style="background: #242424">
+        </section>
+        
+-->
+        <section class="token-details section bg-img">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <div class="about-content">
-                            <h2 class="f-40 fw-400 wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Buy Token Now!</h2>
-                            <p class="wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;">Crypto is a lending and investment, multicurrency and multifunctional online platform based on blockchain technology. There investors and borrowers meet each other and have the opportunity to lend money on mutually beneficial.</p>
-                            <p class="wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn;">Crypto is a unique service that allows individuals to access loans from the comfort of their home in fiat currencies or crypto-currencies.</p>
-                            <p class="wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">Crypto is a multi-functional platform which allows each participant to keep money in a multi-currency online wallet, buy and sell currency on the exchange, invest money, get a loan in a convenient currency.</p>
-                            <div class="buttons">
-                                <a href="#" class="btn1" style="background: #3D4CAE">Buy Now <i class="fa fa-shopping-cart"></i></a>
-                            </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="section-heading">
+                            <h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">TOKENOMICS</h2>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                       <img src="images/online-buy.webp">
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2">
+                        <div class="tokes-chart-slider wow animate fadeIn" data-wow-duration="1s">
+                            <div class="cart-list">
+                                <div class="chart col-sm-6">
+                                    <div id="e_chart_3" class="" style="height:400px;"></div>
+                                    <div class="imgs"><img src="images/binance-coin-bnb-logo.png" alt="" /></div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="label-chatrs">
+                                        <div class="lsits">
+                                            <span class="clabels-text">85%</span>
+                                            <p>For participants of Pre-Sale and ICO</p>
+                                        </div>
+                                        <div class="lsits">
+                                            <span class="clabels-text">8%</span>
+                                            <p>Reserved for the team.</p>
+                                        </div>
+                                        <div class="lsits">
+                                            <span class="clabels-text">4%</span>
+                                            <p>Reserved for the consultants.</p>
+                                        </div>
+                                        <div class="lsits">
+                                            <span class="clabels-text">3%</span>
+                                            <p>Bounty campaign</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contents text-center">
+                            <h2 class="wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;">To get know more about us download our File</h2>
+                            <a href="#" class="btn1 wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn; background: #2E3986">Download WhitePaper</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="about-area pd-t70 pd-b100 jarallax bg-img" style="background: #242424">
-            <div class="container">
-                <div class="row">  
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                       <img src="images/img-5-copyright.webp">
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <div class="about-content">
-                            <h2 class="f-40 fw-400 wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Time is Money in Hiruko</h2>
-                            <p class="wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;">Crypto is a lending and investment, multicurrency and multifunctional online platform based on blockchain technology. There investors and borrowers meet each other and have the opportunity to lend money on mutually beneficial.</p>
-                            <p class="wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn;">Crypto is a unique service that allows individuals to access loans from the comfort of their home in fiat currencies or crypto-currencies.</p>
-                            <p class="wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">Crypto is a multi-functional platform which allows each participant to keep money in a multi-currency online wallet, buy and sell currency on the exchange, invest money, get a loan in a convenient currency.</p>
-                            <div class="buttons">
-                                <a href="#" class="btn1" style="background: #3D4CAE">Invest Now</a>
+        <div class="sud">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 181.1" style="enable-background:new 0 0 1920 181.1;" xml:space="preserve">
+                <style type="text/css">
+                    .st0 {
+                        fill-rule: evenodd;
+                        clip-rule: evenodd;
+                        fill: #10122d;
+                    }
+                </style>
+                <g>
+                    <path class="st0" d="M0,80c0,0,28.9-4.2,43-13c14.3-9,71-35.7,137,5c17.3,7.7,33.3,13,48,11c17.3,0.3,50.3,4.7,66,23
+                     c20.3,9.7,68,40.3,134-12c24-11,59-16.3,104,2c21,7.3,85,27.7,117-14c24-30.7,62.7-55,141-12c26,10.3,72,14.7,110-14
+                     c37.7-19,89.7-29,122,53c23,32.7,47.7,66.3,97,26c24-22.7,51-78.3,137-38c0,0,28.3,15.7,52,15c23.7-0.7,50.7,4.3,76,41
+                     c19.7,19.7,71,36.7,121-2c0,0,22.3-16,55-12c0,0,32.7,6.7,56-71c23.3-76,79-92,122-29c9.3,13.7,25,42,62,43c37,1,51.7,25.3,67,48
+                     c15.3,22.7,51,22.7,53,23v28.1H0V80z" />
+                </g>
+            </svg>
+        </div>
+        <section class="team-area pd-t100 pd-b50">
+            <div id="particles-team">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="section-heading2">
+                                <h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Expert Team</h2>
                             </div>
                         </div>
                     </div>
-                  
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;">
+                            <div class="team-list">
+                                <div class="conte">
+                                    <div class="dbox">
+                                        <div class="dleft">
+                                            <img src="images/team/1.png" alt="" />
+                                        </div>
+                                        <div class="dright">
+                                            <div class="content">
+                                                <h3>John Doe </h3>
+                                                <span>(Co-Founder & CEO)</span>
+                                                <ul>
+                                                    <li><a href="#" style="background: #2E3986"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="#" style="background: #2E3986"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="#" style="background: #2E3986"><i class="fa fa-linkedin"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="con">
+                                        <p>John doe is our amazing man, He is serving in this from 10 year. He also help a lot of people in the field of Cryptocurency.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn;">
+                            <div class="team-list">
+                                <div class="conte">
+                                    <div class="dbox">
+                                        <div class="dleft">
+                                            <img src="images/team/2.png" alt="" />
+                                        </div>
+                                        <div class="dright">
+                                            <div class="content">
+                                                <h3>Kevin Marti</h3>
+                                                <span>(Co-Founder & CEO)</span>
+                                                <ul>
+                                                    <li><a href="#" style="background: #2E3986"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="#" style="background: #2E3986"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="#" style="background: #2E3986"><i class="fa fa-linkedin"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="con">
+                                        <p>Kevin Marti is our amazing man, He is serving in this from 10 year. He also help a lot of people in the field of Cryptocurency.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">
+                            <div class="team-list">
+                                <div class="conte">
+                                    <div class="dbox">
+                                        <div class="dleft">
+                                            <img src="images/team/3.png" alt="" />
+                                        </div>
+                                        <div class="dright">
+                                            <div class="content">
+                                                <h3>Shine Maxwel</h3>
+                                                <span>(Co-Founder & CEO)</span>
+                                                <ul>
+                                                    <li><a href="#" style="background: #2E3986"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="#" style="background: #2E3986"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="#" style="background: #2E3986"><i class="fa fa-linkedin"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="con">
+                                        <p>Shine is our amazing man, He is serving in this from 10 year. He also help a lot of people in the field of Cryptocurency.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow  fadeIn animated" data-wow-duration="2.1s" style="visibility: visible; animation-duration: 2.1s; animation-name: fadeIn;">
+                            <div class="team-list">
+                                <div class="conte">
+                                    <div class="dbox">
+                                        <div class="dleft">
+                                            <img src="images/team/4.png" alt="" />
+                                        </div>
+                                        <div class="dright">
+                                            <div class="content">
+                                                <h3>Maria</h3>
+                                                <span>(Co-Founder & CEO)</span>
+                                                <ul>
+                                                    <li><a href="#" style="background: #2E3986"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="#" style="background: #2E3986"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="#" style="background: #2E3986"><i class="fa fa-linkedin"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="con">
+                                        <p>Maria is our amazing woman, she is serving in this from 10 year. she also help a lot of people in the field of Cryptocurency.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-		<section class="blog-area section contt_area faq_area" section-scroll='6' id="faq">
+    </div>
+    <div section-scroll='7' class="wd_scroll_wrap">
+		<section class="blog-area section contt_area faq_area">
 			<div class="container">
                 <div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"  style="background: #242424">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="section-heading2">
                             <h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Frequently Asked Question</h2>
                         </div>
                     </div>
-					<div   style="background: #242424" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 wow  fadeIn animated" data-wow-duration="1.5s">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 wow  fadeIn animated" data-wow-duration="1.5s">
 						<div class="team2-area btc_right_contt">
 							 <div class="team-list">
-								<div class="btc_faq_main_wrapper" style="background: #000">
-									<div class="accordionFifteen" style="background: #000">
+								<div class="btc_faq_main_wrapper">
+									<div class="accordionFifteen">
                             <div class="panel-group" id="accordionFifteenLeft" role="tablist">
                                 <div class="panel panel-default sidebar_pannel">
                                     <div class="panel-heading desktop">
                                         <h4 class="panel-title">
-													<a data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftone" aria-expanded="false">- We are always carefull to our patient  and service</a>
+													<a data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftone" aria-expanded="false" style="background: #5BB9CA">- We are always carefull to our patient  and service</a>
 												</h4>
                                     </div>
                                     <div id="collapseFifteenLeftone" class="panel-collapse collapse in" aria-expanded="true" role="tabpanel">
@@ -556,7 +902,7 @@
                                 <div class="panel panel-default sidebar_pannel">
                                     <div class="panel-heading horn">
                                         <h4 class="panel-title">
-													<a class="collapsed" data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftTwo" aria-expanded="false">- Who has access to my Health Records</a>
+													<a class="collapsed" data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftTwo" aria-expanded="false" style="background: #5BB9CA">- Who has access to my cyrpto wallet?</a>
 												</h4>
                                     </div>
                                     <div id="collapseFifteenLeftTwo" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;" role="tabpanel">
@@ -571,7 +917,7 @@
                                 <div class="panel panel-default sidebar_pannel">
                                     <div class="panel-heading bell">
                                         <h4 class="panel-title">
-													<a class="collapsed" data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftThree" aria-expanded="false">- We are always carefull to our patient  and service</a>
+													<a class="collapsed" data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftThree" aria-expanded="false" style="background: #5BB9CA">Can you maintain the security of my wallet</a>
 												</h4>
                                     </div>
                                     <div id="collapseFifteenLeftThree" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;" role="tabpanel">
@@ -586,7 +932,7 @@
                                 <div class="panel panel-default sidebar_pannel">
                                     <div class="panel-heading bell">
                                         <h4 class="panel-title">
-													<a class="collapsed" data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftFour" aria-expanded="false">- We are always carefull to our patient  and service</a>
+													<a class="collapsed" data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftFour" aria-expanded="false" style="background: #5BB9CA">How we can get started?</a>
 												</h4>
                                     </div>
                                     <div id="collapseFifteenLeftFour" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;" role="tabpanel">
@@ -609,33 +955,117 @@
 				</div>
 			</div>
 		</section>	
+        <section class="media-area section bg-img jarallax">
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="section-heading">
+                            <h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Our Partners</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2">
+                        <div class="mediabrand">
+                            <ul>
+                                <li class="wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;">
+                                    <a href="#"><img src="images/press1.png" alt="" /></a>
+                                </li>
+                                <li class="wow  fadeIn animated" data-wow-duration="1.6s" style="visibility: visible; animation-duration: 1.6s; animation-name: fadeIn;">
+                                    <a href="#"><img src="images/press2.png" alt="" /></a>
+                                </li>
+                                <li class="wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;">
+                                    <a href="#"><img src="images/press3.png" alt="" /></a>
+                                </li>
+                                <li class="wow  fadeIn animated" data-wow-duration="2.1s" style="visibility: visible; animation-duration: 2.1s; animation-name: fadeIn;">
+                                    <a href="#"><img src="images/press4.png" alt="" /></a>
+                                </li>
+                                <li class="wow  fadeIn animated" data-wow-duration="2.4s" style="visibility: visible; animation-duration: 2.4s; animation-name: fadeIn;">
+                                    <a href="#"><img src="images/press5.png" alt="" /></a>
+                                </li>
+                                <li class="wow  fadeIn animated" data-wow-duration="2.7s" style="visibility: visible; animation-duration: 2.7s; animation-name: fadeIn;">
+                                    <a href="#"><img src="images/press6.png" alt="" /></a>
+                                </li>
+								<li class="wow  fadeIn animated" data-wow-duration="2.7s" style="visibility: visible; animation-duration: 2.7s; animation-name: fadeIn;">
+                                    <a href="#"><img src="images/press7.png" alt="" /></a>
+                                </li>
+								<li class="wow  fadeIn animated" data-wow-duration="2.7s" style="visibility: visible; animation-duration: 2.7s; animation-name: fadeIn;">
+                                    <a href="#"><img src="images/press8.png" alt="" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<div class="sud">
+            <svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 181.1" style="enable-background:new 0 0 1920 181.1;" xml:space="preserve">
+                <style type="text/css">
+                    .st0 {
+                        fill-rule: evenodd;
+                        clip-rule: evenodd;
+                        fill: #1f58b1;
+                    }
+                </style>
+                <g>
+                    <path class="st0" d="M0,80c0,0,28.9-4.2,43-13c14.3-9,71-35.7,137,5c17.3,7.7,33.3,13,48,11c17.3,0.3,50.3,4.7,66,23
+                     c20.3,9.7,68,40.3,134-12c24-11,59-16.3,104,2c21,7.3,85,27.7,117-14c24-30.7,62.7-55,141-12c26,10.3,72,14.7,110-14
+                     c37.7-19,89.7-29,122,53c23,32.7,47.7,66.3,97,26c24-22.7,51-78.3,137-38c0,0,28.3,15.7,52,15c23.7-0.7,50.7,4.3,76,41
+                     c19.7,19.7,71,36.7,121-2c0,0,22.3-16,55-12c0,0,32.7,6.7,56-71c23.3-76,79-92,122-29c9.3,13.7,25,42,62,43c37,1,51.7,25.3,67,48
+                     c15.3,22.7,51,22.7,53,23v28.1H0V80z" />
+                </g>
+            </svg>
+        </div>
         <!--Footer area start here-->
         <footer class="top-foo">
-            <div id="footer-js"  style="background: #000">
-                <div class="footer-top section"  style="background: #000">
+            <div id="footer-js">
+                <div class="footer-top section">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <div class="con">
                                     <h2 class="wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">Subscribe to us!</h2>
                                     <ul>
-                                        <li class="wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;"><a href="#" style="background: #242424"><i class="fa fa-facebook"></i></a></li>
-                                        <li class="wow  fadeIn animated" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5; animation-name: fadeIn;"><a href="#" style="background: #242424"><i class="fa fa-twitter"></i></a></li>
-                                        <li class="wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;"><a href="#" style="background: #242424"><i class="fa fa-send-o"></i></a></li>
-                                        <li class="wow  fadeIn animated" data-wow-duration="2.1s" style="visibility: visible; animation-duration: 2.1s; animation-name: fadeIn;"><a href="#" style="background: #242424"><i class="fa fa-bitcoin"></i></a></li>
-                                        <li class="wow  fadeIn animated" data-wow-duration="2.4s" style="visibility: visible; animation-duration: 2.4s; animation-name: fadeIn;"><a href="#" style="background: #242424"><i class="fa fa-envelope"></i></a></li>
+                                        <li class="wow  fadeIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: fadeIn;"><a href="#" style="background: #2E3986"><i class="fa fa-facebook"></i></a></li>
+                                        <li class="wow  fadeIn animated" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5; animation-name: fadeIn;"><a href="#" style="background: #2E3986"><i class="fa fa-twitter"></i></a></li>
+                                        <li class="wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.9s; animation-name: fadeIn;"><a href="#" style="background: #2E3986"><i class="fa fa-send-o"></i></a></li>
+                                        <li class="wow  fadeIn animated" data-wow-duration="2.1s" style="visibility: visible; animation-duration: 2.1s; animation-name: fadeIn;"><a href="#" style="background: #2E3986"><i class="fa fa-bitcoin"></i></a></li>
+                                        <li class="wow  fadeIn animated" data-wow-duration="2.4s" style="visibility: visible; animation-duration: 2.4s; animation-name: fadeIn;"><a href="#" style="background: #2E3986"><i class="fa fa-envelope"></i></a></li>
                                     </ul>
-                                    <div class="row" style="background: #000">
+                                    <div class="row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="search_btm wow  fadeIn animated" data-wow-duration="2.6s" style="visibility: visible; animation-duration: 2.6s; animation-name: fadeIn;">
                                                 <div class="search_main">
                                                     <input type="text" placeholder="enter your email address">
-                                                    <button type="submit" style="background:#363636">subscribe</button>
+                                                    <button type="submit" style="background: #2E3986">subscribe</button>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <footer class="foo-bot">
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="copyright wow  fadeIn animated" data-wow-duration="1.9s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">
+                                <p>© 2020-2021 <a href="#"><span>Crypto</span></a> | All rights reserved. Design by
+                                    <a href="#" target="_blank"> <span>Front-End developer</span></a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="foo-link wow  fadeIn animated" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1.0s; animation-name: fadeIn;">
+                                <ul>
+                                    <li><a href="#">WhitePaper</a></li>
+                                    <li><a href="#">Terms of Service</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>

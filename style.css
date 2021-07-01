@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900");
 
-*{
-    scroll-behavior: smooth;
-}
+
 html,
 body {
   font-size: 16px;
@@ -633,6 +631,22 @@ background: linear-gradient(to right, rgba(45,193,201,1) 0%, rgba(57,100,208,1) 
     padding-left: 12px;
 	border-radius:100%;
 	background:#3667b3;
+	    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.slider-area:hover .carousel-nevigation > .prev{
+	left:10px;
+	    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.slider-area:hover .carousel-nevigation > .next{
+	right:10px;
 	    -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -1875,7 +1889,7 @@ header .mobilemenu .mean-container a.meanmenu-reveal {
 .slider-area {
   display: block;
   position: relative;
-  background: black;
+  background: #0b0c22;
 }
 .slider-area .carousel {
   position: relative;
@@ -2050,7 +2064,7 @@ div#clockdiv .smalltext {
     font-family: 'Oswald', sans-serif;
     padding: 0px;
     border-radius: 10px;
-    border: 2px dashed #a1a1a1;
+    border: 2px double #a1a1a1;
     display: inline-block;
     width: 120px;
     height: 200px;
@@ -2260,7 +2274,7 @@ background: linear-gradient(to right, rgba(45,193,201,1) 0%, rgba(57,100,208,1) 
 7. Blog area start here
 ....................................*/
 .blog-area {
-  background: #242424; !important
+  background: #1f58b1;
   position: relative;
   display: block;
 }
@@ -2576,7 +2590,13 @@ background: linear-gradient(to right, rgba(45,193,201,1) 0%, rgba(57,100,208,1) 
   width: 90px;
   height: 90px;
   margin: 0 auto;
-    background: #232323 ;
+    background: rgba(57,100,208,1);
+background: -moz-linear-gradient(left, rgba(57,100,208,1) 0%, rgba(45,193,201,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(57,100,208,1)), color-stop(100%, rgba(45,193,201,1)));
+background: -webkit-linear-gradient(left, rgba(57,100,208,1) 0%, rgba(45,193,201,1) 100%);
+background: -o-linear-gradient(left, rgba(57,100,208,1) 0%, rgba(45,193,201,1) 100%);
+background: -ms-linear-gradient(left, rgba(57,100,208,1) 0%, rgba(45,193,201,1) 100%);
+background: linear-gradient(to right, rgba(57,100,208,1) 0%, rgba(45,193,201,1) 100%);
   color: #fff;
   line-height: 90px;
   border-radius: 100%;
@@ -4704,7 +4724,12 @@ p{
 .accordionFifteen .panel .panel-heading a {	
 	display: block;
 	
-   background: #242424;
+    background: -moz-linear-gradient(left, rgba(57,100,208,1) 0%, rgba(45,193,201,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(57,100,208,1)), color-stop(100%, rgba(45,193,201,1)));
+    background: -webkit-linear-gradient(left, rgba(57,100,208,1) 0%, rgba(45,193,201,1) 100%);
+    background: -o-linear-gradient(left, rgba(57,100,208,1) 0%, rgba(45,193,201,1) 100%);
+    background: -ms-linear-gradient(left, rgba(57,100,208,1) 0%, rgba(45,193,201,1) 100%);
+    background: linear-gradient(to right, rgba(57,100,208,1) 0%, rgba(45,193,201,1) 100%);
 	padding: 20px 20px;
 	color: #ffffff;
 	font-size:16px;
@@ -4787,9 +4812,6 @@ p{
 .btc_cont_form_wrapper{
 	float:left;
 	width:100%;
-}
-.search_main input{
-    background: #242424;
 }
 .btc_cont_form_wrapper input{
 	width:100%;
@@ -4911,5 +4933,5 @@ p{
 	}
 }
 .faq_area{
-	background:#242424;
+	background:#0d469f !important;
 }
